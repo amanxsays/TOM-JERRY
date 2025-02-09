@@ -10,7 +10,20 @@
     right: 153px;
     font-size: x-large;
 }
-
+#inst{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    font-size: x-large;
+}
+#Img{
+    top: 25px;
+    left: 20px;
+    position: relative;
+    background: url("../img/arrow-keys.webp");
+    background-size: 20vh;
+}
 #scoreBox{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
