@@ -10,6 +10,13 @@
     right: 153px;
     font-size: x-large;
 }
+#l{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    top: 33px;
+    left: 119px;
+    position: absolute;
+}
 #inst{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
@@ -17,13 +24,7 @@
     left: 100px;
     font-size: x-large;
 }
-#Img{
-    top: 25px;
-    left: 20px;
-    position: relative;
-    background: url("../img/arrow-keys.webp");
-    background-size: 20vh;
-}
+
 #scoreBox{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
@@ -39,6 +40,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#arrow{
+    position:absolute;
+    background: url("../img/arrow.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 35px;
+    left: 120px;
+    height: 60px;
+    width: 100px;
 }
 
 #board{
